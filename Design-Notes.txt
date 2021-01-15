@@ -1,0 +1,19 @@
+ImageLibrary by Lena Ebner FHS MMT-B 2019 WS 2020 Multimedia Processing
+
+- before a new manipulative operation the bitmap needs to be converted to a RGBChannels struct instance
+- so that all operation have the same basis
+- only the comparision works with Bitmaps and RGBChannels struct as input because there is no manipulative operation on them
+- later on the RGBChannels can be converted back to a Bitmap and saved as valid image
+
+- there are different subsystems: 
+ - PixelManipulator
+ - ConstrastEnhancer
+ - FilterManipulator
+ - Comparer
+ - ColorSpaceConverter
+ - Transformer
+ that get handled with the Facade Pattern in the ImageProcessor class and used as Singletons
+
+- ColorSpace conversions and transformations get handled directly via subsystem,
+whereas the other subsystems furthermore have an additional abstraction hierachy to avoid code duplication
+
