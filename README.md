@@ -7,7 +7,7 @@
  - [Constrast Enhancement:](./ContrastEnhancer.cs): Autocontrast, Robust Constrast, Histogram Equalization
  - [Comparision:](./Comparer.cs) Difference Image, PSNR and MSE Calculation
  - [ColorSpace Converter:](./ColorSpaceConverter.cs) from RGB to YCbCr, from YCbCr to RGB, Horizontal Subsampling
- - [Transformations:](./Transformations.cs) DCT and Inverse DCT, Huffman Encoding
+ - [Transformations:](./Transformation.cs) DCT and Inverse DCT, Huffman Encoding
  - [Feature Detection:](./FeatureDetector.cs) Harris-Corner Detection Feature Point Detection and Visualisation
 
 ## Implementation Notes
